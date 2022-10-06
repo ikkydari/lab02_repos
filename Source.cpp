@@ -9,6 +9,7 @@ int main()
 	double znamennyk1; //заменник для 1 виразу
 	double chyselnyk1; //чисельник для 1 виразу
 	cout  << "Enter x, please "; cin >> x;
+	znamennyk1 = pow(x, 2) + 2 * x - 3 + (x-1)*(sqrt(pow(x,2)-9));
 	z1 = znamennyk1/chyselnyk1;
 	z2 = x + x;
 	cout << endl;
