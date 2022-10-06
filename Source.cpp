@@ -9,13 +9,13 @@ int main()
 	double znamennyk1; //заменник для 1 виразу
 	double chyselnyk1; //чисельник для 1 виразу
 	cout  << "Enter x, please "; cin >> x;
-	znamennyk1 = pow(x, 2) + 2 * x - 3 + (x-1)*(sqrt(pow(x,2)-9));
+	chyselnyk1 = pow(x, 2) + 2 * x - 3 + (x+1)*(sqrt(pow(x,2)-9));
+	znamennyk1 = pow(x, 2) - 2 * x - 3 + (x - 1) * (sqrt(pow(x, 2) - 9));
 	z1 = znamennyk1/chyselnyk1;
-	z2 = x + x;
+	z2 = sqrt((x+3)/(x-3));
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
 	cout << "z2 = " << z2 << endl;
-	cin.get();
 	system("pause");
 	return 0;
 }
