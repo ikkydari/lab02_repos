@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
+#include <cmath>
 int main()
 {
 	double x; // вхідний параметр
 	double z1; // результат обчислення 1-го виразу
 	double z2; // результат обчислення 2-го виразу
-	cout << "x = "; cin >> x;
-	z1 = 2 * x;
+	double znamennyk1; //заменник для 1 виразу
+	double chyselnyk1; //чисельник для 1 виразу
+	cout  << "Enter x, please "; cin >> x;
+	z1 = znamennyk1/chyselnyk1;
 	z2 = x + x;
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
