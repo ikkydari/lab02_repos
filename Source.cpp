@@ -1,3 +1,8 @@
+// Lab_02.cpp
+// < Парастатова Дарина >
+// Лабораторна робота № 2.
+// Лінійні програми.
+// Варіант 16
 #include <iostream>
 using namespace std;
 #include <cmath>
@@ -11,7 +16,7 @@ int main()
 	cout  << "Enter x, please "; cin >> x;
 	chyselnyk1 = pow(x, 2) + 2 * x - 3 + (x+1)*(sqrt(pow(x,2)-9));
 	znamennyk1 = pow(x, 2) - 2 * x - 3 + (x - 1) * (sqrt(pow(x, 2) - 9));
-	z1 = znamennyk1/chyselnyk1;
+	z1 = chyselnyk1/znamennyk1;
 	z2 = sqrt((x+3)/(x-3));
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
